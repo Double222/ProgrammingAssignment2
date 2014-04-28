@@ -19,7 +19,6 @@ makeCacheMatrix <- function(x = matrix()) {
     list(set = set, get = get,
          setsolve = setsolve,
          getsolve = getsolve)
-    
 }
 
 ## if the matrix inverse is calculated and stored, the function will return
